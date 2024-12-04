@@ -1,4 +1,4 @@
-from typing import Optional, Union
+from typing import Union
 
 from passlib.hash import bcrypt
 

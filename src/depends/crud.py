@@ -1,7 +1,4 @@
-from datetime import datetime, timedelta
-from ipaddress import IPv4Address
-
-from sqlalchemy import select, update
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from models.models import User

@@ -10,7 +10,7 @@ from exceptions.exceptions import LoginError
 from passwordutils import check_password
 from user.scheme import StatusSuccess
 
-router = APIRouter(prefix="/auth", tags=["auth"])
+router = APIRouter(prefix="/api/v1/auth", tags=["auth"])
 
 
 @router.post("/login", response_model=AccessTokens)
