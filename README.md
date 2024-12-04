@@ -26,7 +26,7 @@ The application also implements access rights verification for two roles:
 
 ### The repository contains the following components:
 * **[About](#About)**
-* **[Rest API Structure](#Rest API Structure)**
+* **[Rest-API-Structure](#Rest-API-Structure)**
     * [Auth](#Auth)
     * [User](#User)
     * [Start-RestAPI](#Start-RestAPI)
